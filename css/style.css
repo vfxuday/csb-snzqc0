@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: radial-gradient(
+    circle farthest-corner at 22.4% 21.7%,
+    rgba(4, 189, 228, 1) 0%,
+    rgba(2, 83, 185, 1) 100.2%
+  );
+  width: calc(100% - 33px);
+  font-family: roboto;
+}
+
+canvas {
+  position: absolute;
+}
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.result-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.result-container > div {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  margin: 5px 0;
+  color: white;
+  text-transform: capitalize;
+}
+#age {
+  background: #1e94be;
+}
+#emotion {
+  background: #8a1025;
+}
+#gender {
+  background: #62d8a5;
+}
+video {
+  width: 100%;
+}
+header {
+  color: white;
+  width: 100%;
+  font-size: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
